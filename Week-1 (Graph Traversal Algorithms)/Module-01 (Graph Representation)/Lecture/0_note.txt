@@ -26,3 +26,5 @@ Tree
     - Cycle:
         1. Cyclic
         2. Acyclic
+
+Note: Undirected cycle hote hole minimum 3 ta node lagbe.
