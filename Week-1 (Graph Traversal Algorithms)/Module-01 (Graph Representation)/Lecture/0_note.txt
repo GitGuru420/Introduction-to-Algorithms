@@ -14,4 +14,15 @@ Tree
 - 2 ta node er moddho multiple edges thakte pare na.
 - Ekta node theke aar ekta node e multiple way te jawa possible na.
 - Cycle possible na. 
-- Edge direction one way. (Parent -> child )
+- Edge direction one way. (Parent -> child)
+
+# Types of Graph:
+    - Direction:
+        1. Directed
+        2. Undirected
+    - Weight:
+        1. Weighted
+        2. Unweighted
+    - Cycle:
+        1. Cyclic
+        2. Acyclic
