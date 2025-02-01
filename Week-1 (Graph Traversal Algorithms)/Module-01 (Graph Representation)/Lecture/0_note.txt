@@ -1,2 +1,17 @@
 # What is Algorithms?
     - Some sequence of steps/instructions to solve a problem.
+
+# Graph VS Tree: 
+Graph
+- 2 ta node er moddho multiple edges thakte pare.
+- Ekta node theke aar ekta node e multiple way te jawa possible.
+- Cycle possible.
+- Edge direction two way.
+
+VS
+
+Tree
+- 2 ta node er moddho multiple edges thakte pare na.
+- Ekta node theke aar ekta node e multiple way te jawa possible na.
+- Cycle possible na. 
+- Edge direction one way. (Parent -> child )
