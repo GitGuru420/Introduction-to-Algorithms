@@ -28,3 +28,8 @@ Tree
         2. Acyclic
 
 Note: Undirected cycle hote hole minimum 3 ta node lagbe.
+
+# Graph input store 3 way:
+    - Adjacency Matrix
+    - Adjacency List
+    - Edge List
