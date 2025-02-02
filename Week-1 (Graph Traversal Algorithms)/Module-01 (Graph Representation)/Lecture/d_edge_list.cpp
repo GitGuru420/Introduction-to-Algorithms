@@ -11,9 +11,10 @@ int main()
         edge_list.push_back({a, b});
     }
 
-    for(pair<int,int> p : edge_list) {
+    // for(pair<int,int> p : edge_list) {
+    for(auto p : edge_list) {
         cout << p.first << " " << p.second << endl;
     }
-    
+
     return 0;
 }
