@@ -33,3 +33,13 @@ Note: Undirected cycle hote hole minimum 3 ta node lagbe.
     - Adjacency Matrix
     - Adjacency List
     - Edge List
+
+# Compare, which is best for Graph input between 3 methods:
+
+Note: Check 2 nodes connected or not: 
+    - adj_mat -> O(1) (best)
+    - adj_list -> O(N)
+    - edge_list -> O(N)
+
+Note: all the connected nodes from a node: 
+    - adj_list
