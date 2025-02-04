@@ -1,0 +1,13 @@
+What is Graph?
+    - A set of node.
+
+Complete Graph
+    - Formula: node(node-1)/2
+
+Tree:
+    - Acyclic
+    - Unique path
+    - Connected
+
+Directed Acyclic Graph(DAG)
+Directed Cyclic Graph(DCG)
