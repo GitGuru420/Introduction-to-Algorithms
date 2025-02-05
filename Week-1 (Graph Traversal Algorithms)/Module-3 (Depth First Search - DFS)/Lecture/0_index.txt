@@ -1,3 +1,9 @@
 Traversal
     - Level-wise (BFS)
     - Depth-wise (DFS)
+
+2D Grid Movement
+    Up-> i-j, j
+    Down -> i+j, j
+    Left -> i, j-1
+    Right -> i, j+1
