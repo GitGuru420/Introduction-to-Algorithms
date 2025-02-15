@@ -8,13 +8,13 @@ void dijkstra(int src) {
     q.push({src,0});
     dis[src] = 0;
 
-    while(!q.empty()) {
+    while(!q.empty()) {     // O(V)
         pair<int,int> par = q.front();
         q.pop();
         int par_node = par.first;
         int par_dis = par.second;
 
-        for(auto child : adjList[par_node]) {
+        for(auto child : adjList[par_node]) {   // O(E)
             int child_node = child.first;
             int child_dis = child.second;
 
@@ -25,6 +25,7 @@ void dijkstra(int src) {
         }
     }
 }
+// Time Complexity: O(VE)
 
 int main()
 {
