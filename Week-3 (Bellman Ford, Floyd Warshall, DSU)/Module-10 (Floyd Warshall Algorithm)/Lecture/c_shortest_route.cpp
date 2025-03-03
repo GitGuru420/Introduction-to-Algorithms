@@ -16,8 +16,8 @@ int main()
 
     while(e--) {
         long long a, b, c;    cin >> a >> b >> c;
-        adjMat[a][b] = c;
-        adjMat[b][a] = c;
+        adjMat[a][b] = min(adjMat[a][b], c);
+        adjMat[b][a] = min(adjMat[a][b], c);
     }
 
     for(int k=1; k<=n; k++) {
