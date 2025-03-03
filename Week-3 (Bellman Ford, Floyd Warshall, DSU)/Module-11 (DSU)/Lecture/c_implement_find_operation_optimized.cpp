@@ -8,6 +8,7 @@ int find(int node)
     if(leader[node] == -1)
         return node;
     int lead = find(leader[node]);
+    leader[node] = lead;
     return lead;
 }
 
