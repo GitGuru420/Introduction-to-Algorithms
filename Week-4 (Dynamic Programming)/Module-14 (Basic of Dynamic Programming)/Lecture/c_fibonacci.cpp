@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int fibo(int n) {   // O(N)
+int fibo(int n) {   // O(2^N)
     if(n<2)
         return n;
     return fibo(n-1) + fibo(n-2);
